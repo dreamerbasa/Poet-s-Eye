@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --color-amber-accent: #f59e0b;
+  --color-amber-accent-hover: #d97706;
+}
+
+@keyframes blob1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(30px, -50px) scale(1.1); }
+  50% { transform: translate(-20px, 20px) scale(0.95); }
+  75% { transform: translate(40px, 30px) scale(1.05); }
+}
+
+@keyframes blob2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(-40px, 30px) scale(1.05); }
+  50% { transform: translate(30px, -40px) scale(1.1); }
+  75% { transform: translate(-20px, -20px) scale(0.95); }
+}
+
+@keyframes blob3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  25% { transform: translate(20px, 40px) scale(0.95); }
+  50% { transform: translate(-40px, -30px) scale(1.05); }
+  75% { transform: translate(30px, -20px) scale(1.1); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-blob1 { animation: blob1 18s ease-in-out infinite; }
+.animate-blob2 { animation: blob2 20s ease-in-out infinite; }
+.animate-blob3 { animation: blob3 16s ease-in-out infinite; }
+.animate-fade-in { animation: fadeIn 0.5s ease-out forwards; }
