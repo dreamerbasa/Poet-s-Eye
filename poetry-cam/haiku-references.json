@@ -1,0 +1,92 @@
+{
+  "references": [
+    {
+      "haiku": "his first steps\na small creek tumbles\ninto the river",
+      "author": "Annette Makino",
+      "teaches": "cut, small-carries-large",
+      "why": "The cut between a child's first steps and a creek joining a river is never explained. The reader connects them — something small becoming part of something larger. The two images do all the work."
+    },
+    {
+      "haiku": "crowded plane\na pesky fly\non its own flight path",
+      "author": "Jeff Kressmann",
+      "teaches": "humor, tension",
+      "why": "Humans packed in with no freedom. Cut. A fly doing whatever it wants. The contrast between confinement and freedom is there without being stated. Note: 'pesky' is the one weakness — it tells you how to feel about the fly instead of showing."
+    },
+    {
+      "haiku": "forest trail\nanother world\nbeneath a rolled log",
+      "author": "Frank Hooven",
+      "teaches": "small-carries-large, discovery",
+      "why": "The cut is between the known path and the hidden world underneath. 'Another world' does heavy lifting without over-explaining. A small physical action — rolling a log — reveals something vast."
+    },
+    {
+      "haiku": "rain showers—\nI awaken\nwith the desert",
+      "author": "Victor Ortiz",
+      "teaches": "cut, sensory-anchor",
+      "why": "The dash after 'rain showers' is a clean cut. 'With' the desert — not 'in' it — as if the desert is also waking up alongside the speaker. One word choice carries the entire poem."
+    },
+    {
+      "haiku": "low tide\na child turns\nthe same stone again",
+      "author": "Jacek Margolak",
+      "teaches": "absence, last-line-opens-door",
+      "why": "The word 'again' carries everything. Why the same stone? What does the child expect to find? What did they find last time? The poem opens a door and leaves it open. The cut between the tidal cycle and the child's repetition mirrors each other."
+    },
+    {
+      "haiku": "telegram in hand\nthe shadow of the marine\ndarkens our screen door",
+      "author": "Nick Virgilio",
+      "teaches": "absence, cut",
+      "why": "The shadow does double work — literal and metaphorical. 'Darkens' carries grief without naming it. No emotion words anywhere. The cut is between the telegram and the shadow. Death is never mentioned but fills the entire poem."
+    },
+    {
+      "haiku": "Thanksgiving dinner:\nplacing the baby's high chair\nin the empty space",
+      "author": "Nick Virgilio",
+      "teaches": "absence, small-carries-large",
+      "why": "Someone died. Nobody says it. The high chair going into the space where a person used to sit — new life filling the gap left by death. The colon after 'Thanksgiving dinner' is the cut. The most powerful word is 'empty.'"
+    },
+    {
+      "haiku": "heat wave…\nthe slow turning\nof the cement mixer",
+      "author": "unknown",
+      "teaches": "mundane-setting, sensory-anchor",
+      "why": "No narrative, no people, no emotion words. Just heat and a machine turning slowly. The oppressive weight is felt entirely through the image. The ellipsis is the cut — vast weather, then one grinding object. Proof that haiku doesn't need nature or humans."
+    },
+    {
+      "haiku": "just words…\nslipping peaches\nfrom their skins",
+      "author": "unknown",
+      "teaches": "tension, ambiguity",
+      "why": "Someone dismissing something said to them — an argument? Then the cut to a tender, intimate, domestic action. The contrast between emotional dismissal and physical gentleness. Rewards re-reading. The ambiguity is a feature, not a flaw."
+    },
+    {
+      "haiku": "war news\nagain I stand\nwith the wildflowers",
+      "author": "unknown",
+      "teaches": "cut",
+      "why": "The cut between global violence and a personal micro-moment. 'Again' tells you this is a repeated ritual, not a one-time escape. 'With' the wildflowers — as companions, not background. Macro world event vs. intimate coping."
+    },
+    {
+      "haiku": "tangled\nat the back of a drawer\nsomething blue",
+      "author": "unknown",
+      "teaches": "last-line-opens-door, absence",
+      "why": "If 'something blue' is a wedding reference, this is quietly devastating — a forgotten keepsake from a marriage that ended. Even without that reading, the unnamed blue thing left tangled and shoved away opens a door the reader walks through."
+    }
+  ],
+  "negative_examples": [
+    {
+      "haiku": "Golden sunset glows\nbeauty fills my grateful heart\nnature heals the soul",
+      "fails_because": "Abstract, sentimental, no concrete image. 'Beauty,' 'grateful heart,' 'heals the soul' are all banned abstractions. Nothing was observed. This is an Instagram caption with line breaks."
+    },
+    {
+      "haiku": "Cherry blossoms fall\ndancing softly in the breeze\nspring has come again",
+      "fails_because": "Cliché composite. Every word is technically correct but nothing was actually noticed. It's assembled from haiku stock images. No cut, no juxtaposition, no door opened."
+    },
+    {
+      "haiku": "Sprouting tulips blush\ncaught bathing in morning dew\nno towels in sight",
+      "fails_because": "Manufactured humor. The joke is engineered, not observed. Nobody looked at tulips and noticed this — someone constructed a punchline. Compare with the fly on the plane, which works because the fly was actually doing its own thing."
+    },
+    {
+      "haiku": "The earth shakes\njust enough\nto remind us",
+      "fails_because": "Strong concrete start killed by a moralizing last line. 'To remind us' turns an observation into a life lesson. Remind us of what? The poem closes the door instead of opening it. The last line does the reader's job for them."
+    },
+    {
+      "haiku": "burnt orange\nthe sweetness\nof a new day",
+      "fails_because": "'The sweetness of a new day' is greeting card language. Abstract, sentimental, no concrete image. What does sweetness look like? You can't photograph it. The color 'burnt orange' is concrete but the poem abandons that specificity immediately."
+    }
+  ]
+}
