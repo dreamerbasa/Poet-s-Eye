@@ -1,6 +1,10 @@
 node_modules/
 dist/
+dist-ssr/
 .env
 .env.local
+*.local
 *.log
 .DS_Store
+poetry-cam/outputs/
+poetry-cam/test-images/

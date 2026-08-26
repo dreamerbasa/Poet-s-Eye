@@ -1,0 +1,15 @@
+{
+  "name": "poetry-cam",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Layer 1 research harness: image -> structured poetic observations",
+  "type": "commonjs",
+  "scripts": {
+    "observe": "node observe.js",
+    "batch": "node batch.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "openai": "^7.3.0"
+  }
+}
