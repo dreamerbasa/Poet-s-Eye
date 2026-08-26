@@ -178,6 +178,17 @@ export default function App() {
           <div className="w-16 h-px bg-[#c4b69c] mx-auto mt-3" />
         </header>
 
+        {!image && (
+          <div className="flex-shrink-0 mb-4 flex justify-center">
+            <button
+              onClick={() => fileRef.current.click()}
+              className="px-8 py-2.5 rounded-md bg-[#3d2b1f] text-white text-sm font-normal hover:bg-[#2c1810] transition-colors"
+            >
+              try your own
+            </button>
+          </div>
+        )}
+
         <div className="flex-1 min-h-0 flex flex-col sm:flex-row gap-6 sm:gap-10 items-center sm:items-stretch">
           <div className="w-full sm:w-1/2 min-h-0">
             {!image ? (
@@ -263,15 +274,6 @@ export default function App() {
         </div>
 
         <div className="flex-shrink-0 py-3 flex flex-col items-center gap-2">
-          {!image && (
-            <button
-              onClick={() => fileRef.current.click()}
-              className="px-8 py-2.5 rounded-md bg-[#3d2b1f] text-white text-sm font-normal hover:bg-[#2c1810] transition-colors"
-            >
-              try your own
-            </button>
-          )}
-
           {image && !loading && (error || haiku) && (
             <div className="flex justify-center gap-3">
               <button
