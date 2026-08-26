@@ -184,7 +184,7 @@ export default function App() {
               onClick={() => fileRef.current.click()}
               className="px-8 py-2.5 rounded-md bg-[#3d2b1f] text-white text-sm font-normal hover:bg-[#2c1810] transition-colors"
             >
-              try your own
+              Try it out
             </button>
           </div>
         )}
